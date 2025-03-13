@@ -18,7 +18,7 @@ def print_line(line, encoding, errors):
     print(raw_bytes, "<===>", cooked_string)
 # Here we are done with defining stuff and are ready to execute
 
-languages = open("languages.txt", encoding="utf-8") #open the file languages.txt and assign it's contents to the variable languages. Set the encoding to utf-8 and assign it to the variable encoding
+languages = open("languages.txt", encoding="utf-8") # so we open the file languages.txt and assign it's contents to the variable languages. Set the encoding to utf-8 and assign it to the variable encoding
 
 main(languages, input_encoding, error) #call the main function with the arguments languages, input_encoding, and error
 
